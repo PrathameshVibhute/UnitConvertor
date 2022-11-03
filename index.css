@@ -1,0 +1,134 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+.UnitConvertor_MainBlock {
+
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1C1C1C;
+
+    font-family: 'Inter', sans-serif;
+
+    box-sizing: border-box;
+    overflow: hidden;
+    
+}
+
+.UnitConvertor_Card {
+
+    width: 70%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 4% 0%;
+}
+
+.UnitConvertor_Display {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 2%;
+    box-sizing: border-box;
+
+    background-color: #6943FF;
+}
+
+.UnitConvertor_TitleText {
+
+    margin: 20px 0px;
+    box-sizing: border-box;
+
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+}
+
+.UnitConvertor_InputField {
+
+    width: 100px;
+    height: 80px;
+
+    background-color: transparent;
+    border: 1px solid white;
+    outline: none;
+    border-radius: 5px;
+
+
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 900;
+}
+
+.UnitConvertor_ConvertBtn {
+
+    width: 100px;
+    height: 40px;
+
+    font-size: 1.1rem;
+    font-weight: 300;
+    
+
+    border-radius: 5px;
+    border: none;
+    box-sizing: border-box;
+    margin: 20px 0px;
+}
+
+.UnitConvertor_InfoBlock {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+    padding: 2%;
+    box-sizing: border-box;
+
+    background-color: #F4F4F4;
+
+}
+
+.UnitConvertor_Block1 {
+
+    width: 85%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: #FFFFFF;
+    margin: 20px 0px;
+    padding: 2%;
+    box-sizing: border-box;
+    
+}
+
+.UnitConvertor_BlockTitle {
+
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #5A537B;
+    box-sizing: border-box;
+    margin: 8px 0px;
+}
